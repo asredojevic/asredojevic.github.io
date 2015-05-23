@@ -1,0 +1,245 @@
+
+ @font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans.otf");
+  }
+  
+Body{
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #FFF;
+	text-align:center;
+	}
+  
+h2{
+	font-family:"Open Sans", Helvetica, Arial, san-serif;
+	font-size:1em;
+	color: #FF6267;
+	font-weight:bold;
+	}
+	
+h3{
+	font-family:"Open Sans", Helvetica, Arial, san-serif;
+	font-size:1.15em;
+	color: #333;
+	font-weight:bold;
+	border-top:#777777 1px solid;
+	padding:10px 0 0 0;
+	text-align:center;
+	margin:0 auto;
+	}
+h4{
+	font-family:"Open Sans", Helvetica, Arial, san-serif;
+	font-size:.75em;
+	font-weight:300;
+	color: #777;
+	padding:2px 0 10px 0;
+	margin:0 auto;
+	}
+
+p{
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+
+#headerImage{
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+	padding-top:20px;
+	background:#ffffff;
+	}
+	
+#headerImage img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.sticky-navigation {
+	width:80%;
+	background-color: #ffffff;
+	text-align: center;
+	border-top: #777777 1px solid;
+	border-bottom: #777777 1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:50px;
+}
+.sticky-navigation.stuck{
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	margin: 0 auto 0 auto;
+	width:100%;
+	text-align: center;
+	z-index:1;
+	}
+	
+.sticky-navigation.stuck a
+{
+font-weight:bold;
+	}
+	
+.sticky-navigation ul{
+	
+	}
+
+.sticky-navigation ul li {
+	display: inline;
+}
+
+.sticky-navigation a {
+	font-family:Open Sans;
+	font-size:1em;
+	color:#000;
+	text-decoration:none;
+	outline:none;
+	padding: 0 20px 0 0;	
+}
+
+.sticky-navigation a:hover{
+	font-family: Open Sans;
+	font-size: 1em;
+	color: #FF6267;
+	text-decoration: none;
+	outline: none;
+	text-align: center;
+}
+
+.gallery {
+	position:relative;
+	margin-right: auto;
+	margin: auto;
+	}
+	
+.gallery:first-child {
+	position:relative;
+	margin-right: auto;
+	margin: auto;
+	padding:30px 0 0 0;
+	}
+	
+.img-portfolio{
+	display:inline;
+	position:relative;
+	margin-right: auto;
+	margin: auto;
+	padding:10px;
+	}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}	
+
+#aboutMe {
+	width:100%;
+	position:relative;
+	margin: 50px auto 50px auto;
+	background:#F2F2F2;
+	display:inline-block;
+	min-height: 300px;
+	padding: 20px 0 20px 0;
+	}
+	
+.aboutMe-box{
+	margin: 20px auto 20px auto;
+	max-width:60%;
+	}
+	
+.left-box{
+	width:50%;
+	display:block;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.left-box img{
+	width:100%;
+	max-width:300px;
+	}	
+
+.right-box{
+	width:45%;
+	float:left;
+	text-align:left;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0 0 0 15px;
+	v-align:center;
+	}
+	
+.btn{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	background: none;
+	border: 2px solid #FF6267;
+	padding:10px;
+	color: #333333;
+	text-decoration:none;
+	width:75%
+}
+
+.btn:hover{
+	background:#FF6267;
+	color:#ffffff;
+	transition:all .28s ease-in .1s;
+	}
+
+#contact{
+	padding: 0 0 30px 0;
+	}
+	
+@media only screen and (max-width: 769px) {
+	.gallery img{
+		width:25%;
+		}
+	.aboutMe-box{
+		max-width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	.left-box {
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	.left-box img{
+		width:90%;
+		max-width:none;
+		}
+	.right-box{
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+		text-align:center;
+		padding:0;
+		
+		}
+	.right-box p{
+		text-align:center;
+		width:100%
+		}
+	}
+	
+@media only screen and (max-width: 481px){
+	.gallery img{
+	width:80%;
+	clear: both;
+	}
+	.aboutMe-box{
+	max-width:90%;
+	}
+		}
