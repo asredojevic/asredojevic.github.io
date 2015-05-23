@@ -97,9 +97,6 @@ font-weight:bold;
 .sticky-navigation ul li {
 	display: inline;
 }
-.sticky-navigation ul li:last-child{
-	padding:0;
-}
 
 .sticky-navigation a {
 	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
@@ -246,4 +243,8 @@ font-weight:bold;
 	.aboutMe-box{
 	max-width:90%;
 	}
+	
+	.sticky-navigation a {
+	padding: 0 5px 0 0;	
+}
 		}
