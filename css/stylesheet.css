@@ -97,6 +97,9 @@ font-weight:bold;
 .sticky-navigation ul li {
 	display: inline;
 }
+.sticky-navigation ul li:last-child{
+	padding:0;
+}
 
 .sticky-navigation a {
 	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
@@ -106,9 +109,7 @@ font-weight:bold;
 	outline:none;
 	padding: 0 15px 0 0;	
 }
-.sticky-navigation a:last-child{
-	padding:0;
-}
+
 
 .sticky-navigation a:hover{
 	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
