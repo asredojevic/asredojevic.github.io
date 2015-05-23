@@ -78,6 +78,7 @@ p{
 .sticky-navigation.stuck{
     position: fixed;
     top: 0;
+    left:0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 	margin: 0 auto 0 auto;
 	width:100%;
@@ -85,8 +86,7 @@ p{
 	z-index:1;
 	}
 	
-.sticky-navigation.stuck a
-{
+.sticky-navigation.stuck a{
 font-weight:bold;
 	}
 	
@@ -243,8 +243,5 @@ font-weight:bold;
 	.aboutMe-box{
 	max-width:90%;
 	}
-	
-	.sticky-navigation a {
-	padding: 0 5px 0 0;	
-}
+
 		}
