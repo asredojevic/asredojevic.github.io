@@ -93,10 +93,7 @@ opacity: 0.3;
 	margin-right: auto;
 }
 
-.sticky-navigation ul li:last-child {
-	padding-right:0;
-	
-}
+
 .sticky-navigation a {
 	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
 	font-size:1em;
