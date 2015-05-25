@@ -262,7 +262,9 @@ font-weight:bold;
 	}
 	.sticky-navigation {
 	width:90%;
-		
+	}
+	.sticky-navigation a {
+	padding: 0 7px 0 0;
 	}
 	.info{
 	width:90%;
