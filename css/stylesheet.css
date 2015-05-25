@@ -265,6 +265,7 @@ font-weight:bold;
 	}
 	.sticky-navigation a {
 	padding: 0 5px 0 5px;
+	margin:0 auto;
 	}
 	.info{
 	width:90%;
