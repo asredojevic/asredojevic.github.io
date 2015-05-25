@@ -63,6 +63,9 @@ p{
 	margin-right: auto;
 	margin-bottom: 25px;
 }
+#headerImage img:hover{
+opacity: 0.8;
+}
 
 .sticky-navigation {
 	width:80%;
