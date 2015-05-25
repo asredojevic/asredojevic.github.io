@@ -270,10 +270,9 @@ font-weight:bold;
 	.sticky-navigation {
 	width:90%;
 	}
-	.sticky-navigation a {
-	padding: 0 5px 0 5px;
-	margin:0 auto;
-	}
+	.sticky-navigation ul li {
+	padding:0 10px 0 0;
+}
 	.info{
 	width:90%;
 	}
