@@ -74,6 +74,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:50px;
+	
 }
 .sticky-navigation.stuck{
     position: fixed;
@@ -104,7 +105,8 @@ font-weight:bold;
 	color:#000;
 	text-decoration:none;
 	outline:none;
-	padding: 0 15px 0 0;	
+	padding: 0 15px 0 0;
+	display:inline;
 }
 
 
@@ -259,6 +261,6 @@ font-weight:bold;
 	max-width:90%;
 	}
 .info{
-	width:100%;
+	width:90%;
 	}
 		}
