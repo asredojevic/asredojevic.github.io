@@ -84,6 +84,7 @@ opacity: 0.3;
 .sticky-navigation ul{
 	margin-left: auto;
 	margin-right: auto;
+	text-align:center;
 	}
 
 .sticky-navigation ul li {
@@ -91,6 +92,7 @@ opacity: 0.3;
 	padding:0 15px 0 0;
 	margin-left: auto;
 	margin-right: auto;
+	text-align:center;
 }
 
 
@@ -101,6 +103,7 @@ opacity: 0.3;
 	text-decoration:none;
 	outline:none;
 	display:inline;
+	text-align:center;
 }
 
 
