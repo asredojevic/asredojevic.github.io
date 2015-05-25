@@ -76,6 +76,37 @@ p{
 	margin-bottom:50px;
 	
 }
+.sticky-navigation ul{
+	
+	}
+
+.sticky-navigation ul li {
+	display: inline;
+	padding:0 15px 0 0;
+}
+
+.sticky-navigation ul li:last-child {
+	padding-right:0;
+	
+}
+.sticky-navigation a {
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:1em;
+	color:#000;
+	text-decoration:none;
+	outline:none;
+	display:inline;
+}
+
+
+.sticky-navigation a:hover{
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	font-size: 1em;
+	color: #FF6267;
+	text-decoration: none;
+	outline: none;
+	text-align: center;
+}
 .sticky-navigation.stuck{
     position: fixed;
     top: 0;
@@ -91,33 +122,6 @@ p{
 font-weight:bold;
 	}
 	
-.sticky-navigation ul{
-	
-	}
-
-.sticky-navigation ul li {
-	display: inline;
-}
-
-.sticky-navigation a {
-	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
-	font-size:1em;
-	color:#000;
-	text-decoration:none;
-	outline:none;
-	padding: 0 15px 0 0;
-	display:inline;
-}
-
-
-.sticky-navigation a:hover{
-	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
-	font-size: 1em;
-	color: #FF6267;
-	text-decoration: none;
-	outline: none;
-	text-align: center;
-}
 
 .gallery {
 	position:relative;
