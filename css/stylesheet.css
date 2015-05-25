@@ -260,7 +260,11 @@ font-weight:bold;
 	.aboutMe-box{
 	max-width:90%;
 	}
-.info{
+	.sticky-navigation {
+	width:90%;
+		
+	}
+	.info{
 	width:90%;
 	}
 		}
