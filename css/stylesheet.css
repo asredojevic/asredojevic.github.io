@@ -240,6 +240,16 @@ font-weight:bold;
 .spw-responsive img{
 	width:100%;
 	}
+.hf-mobile{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:90%;
+	padding:20px 0 50px 0;
+	}
+	
+.hf-mobile img{
+	width:100%;
+	}
 	
 @media only screen and (max-width: 769px) {
 	.gallery img{
