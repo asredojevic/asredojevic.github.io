@@ -230,7 +230,16 @@ font-weight:bold;
 	margin:auto 0 auto 0;
 	font-family: Open Sans, Helvetica, Arial, Sans-serif;
 	}
-
+	
+.spw-responsive{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:80%;
+	padding:20px 0 50px 0;
+	}
+.spw-responsive img{
+	width:100%;
+	}
 	
 @media only screen and (max-width: 769px) {
 	.gallery img{
@@ -266,10 +275,9 @@ font-weight:bold;
 	
 @media only screen and (max-width: 481px){
 	p{
-
 	padding: 15px 0 15px 0;
-	
 	}
+	
 	.gallery img{
 	width:80%;
 	clear: both;
@@ -285,5 +293,8 @@ font-weight:bold;
 }
 	.info{
 	width:90%;
+	}
+	.spw-responsive{
+	width:100%;
 	}
 		}
