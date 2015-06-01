@@ -54,8 +54,8 @@ p{
 
 #headerImage{
 	display:block;
-    margin-left:auto;
-    margin-right:auto;
+    	margin-left:auto;
+    	margin-right:auto;
 	padding-top:20px;
 	background:#ffffff;
 	}
@@ -67,8 +67,8 @@ p{
 	margin-bottom: 25px;
 }
 #headerImage img:hover{
-opacity: 0.3;
-transition:all .28s ease-in .1s;
+	opacity: 0.3;
+	transition:all .28s ease-in .1s;
 }
 
 .sticky-navigation {
