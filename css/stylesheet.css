@@ -68,6 +68,7 @@ p{
 }
 #headerImage img:hover{
 opacity: 0.3;
+transition:all .28s ease-in .1s;
 }
 
 .sticky-navigation {
@@ -115,6 +116,7 @@ opacity: 0.3;
 	text-decoration: none;
 	outline: none;
 	text-align: center;
+	transition:all .28s ease-in .1s;
 }
 .sticky-navigation.stuck{
     position: fixed;
@@ -228,6 +230,7 @@ font-weight:bold;
 
 #contact a:hover{
 opacity: 0.3;
+transition:all .28s ease-in .1s;
 }
 
 .info{
