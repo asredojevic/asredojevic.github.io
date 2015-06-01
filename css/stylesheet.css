@@ -43,6 +43,8 @@ a{
 	color: #333;
 	font-style: italic;
 	text-decoration:none;
+a:hover{
+opacity: 0.3;
 }
 
 p{
