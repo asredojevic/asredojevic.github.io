@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Allison Sredojevic</title>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<style>
+.image-content{
+	background-color:#ffffff;
+	}
+
+</style>
+<body>
+<div id="container">
+<div id="headerImage">
+<a href="index.html"><img src="images/Logo-web.png" alt="allison sredojevic"></a>
+</div>
+<!-- information-->
+<div class="info">
+<h3>HomeFinder Image Uploader</h3>
+<h4>user experience, user interface, visual design</h4>
+<p>While updating our mediaServices API, we decided to re-create our image uploader.
+</p>
+</div>
+<!-- image content start here-->
+<div class="image-content">
+<div class="spw-responsive">
+<img src="images/ImageUploader-1.png">
+<img src="images/ImageUploader-2.png">
+<img src="images/ImageUploader-3.png">
+<img src="images/ImageUploader-4.png">
+<img src="images/ImageUploader-5.png">
+<img src="images/ImageUploader-6.png">
+</div>
+
+</div>
+</div>
+
+</body>
