@@ -321,7 +321,7 @@ p{
 	width:90%;
 	}
 	.spw-responsive{
-	width:100%;
+	width:100% !important;
 	}
 
 		}
