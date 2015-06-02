@@ -228,7 +228,7 @@ p{
 }
 
 #contact a:hover{
-	opacity: 0.15;
+	opacity: 0.3;
 	transition:all .28s ease-in .1s;
 }
 
