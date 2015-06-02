@@ -67,7 +67,7 @@ p{
 	margin-bottom: 25px;
 }
 #headerImage img:hover{
-	opacity: 0.3;
+	opacity: 0.15;
 	transition:all .28s ease-in .1s;
 }
 
@@ -91,7 +91,7 @@ p{
 
 .sticky-navigation ul li {
 	display: inline;
-	padding:0 7.5px 0 7.5px;
+	padding:0 5px 0 5px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
@@ -224,12 +224,11 @@ p{
 	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
 	font-size: 16px;
 	color: #333;
-
 	text-decoration:none;
 }
 
 #contact a:hover{
-	opacity: 0.3;
+	opacity: 0.15;
 	transition:all .28s ease-in .1s;
 }
 
