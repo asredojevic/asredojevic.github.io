@@ -94,7 +94,7 @@ p{
 	padding:0 15px 0 0;
 	margin-left: auto;
 	margin-right: auto;
-	text-align:center;
+
 }
 
 
@@ -105,7 +105,7 @@ p{
 	text-decoration:none;
 	outline:none;
 	display:inline;
-	text-align:center;
+
 }
 
 
@@ -119,10 +119,10 @@ p{
 	transition:all .28s ease-in .1s;
 }
 .sticky-navigation.stuck{
-    position: fixed;
-    top: 0;
-    left:0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    	position: fixed;
+	top: 0;
+    	left:0;
+    	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 	margin: 0 auto 0 auto;
 	width:100%;
 	text-align: center;
@@ -130,7 +130,7 @@ p{
 	}
 	
 .sticky-navigation.stuck a{
-font-weight:bold;
+	font-weight:bold;
 	}
 	
 
@@ -224,13 +224,13 @@ font-weight:bold;
 	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
 	font-size: 16px;
 	color: #333;
-	font-style: italic;
+
 	text-decoration:none;
 }
 
 #contact a:hover{
-opacity: 0.3;
-transition:all .28s ease-in .1s;
+	opacity: 0.3;
+	transition:all .28s ease-in .1s;
 }
 
 .info{
