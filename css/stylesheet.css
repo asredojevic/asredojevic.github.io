@@ -91,10 +91,10 @@ p{
 
 .sticky-navigation ul li {
 	display: inline;
-	padding:0 5px 0 5px;
+	padding:0 15px 0 0;
 	margin-left: auto;
 	margin-right: auto;
-	text-align:center;
+	
 }
 
 
