@@ -91,7 +91,7 @@ p{
 
 .sticky-navigation ul li {
 	display: inline;
-	padding:0 10px 0 0;
+	padding:0 15px 0 0;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
@@ -315,7 +315,7 @@ p{
 	width:90%;
 	}
 	.sticky-navigation ul li {
-
+	padding: 0 10px 0 0;
 }
 	.info{
 	width:90%;
@@ -323,4 +323,5 @@ p{
 	.spw-responsive{
 	width:100%;
 	}
+
 		}
