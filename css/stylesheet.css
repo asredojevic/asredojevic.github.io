@@ -94,14 +94,12 @@ ul{
 
 .sticky-navigation ul li {
 	display: inline;
-	padding:0 15px 0 0;
+	padding:0 7px 0 7px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
 }
-.sticky-navigation ul li:lastchild{
-	padding:0px;
-}
+
 
 .sticky-navigation a {
 	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
