@@ -99,7 +99,9 @@ ul{
 	margin-right: auto;
 	text-align:center;
 }
-
+.sticky-navigation ul li:lastchild{
+	padding:0px;
+}
 
 .sticky-navigation a {
 	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
