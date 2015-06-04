@@ -16,6 +16,17 @@
         $(document).ready(function () {
             $('.sticky-navigation').waypoint('sticky');
         });
+        
+        $('a[data-smooth-scroll="true"]').on('click', function(e) {
+  e.stopPropagation();
+  var hash = this.hash;
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 700, function () {
+    window.location.hash = hash;
+  });
+  return false;
+});
     </script>
 
 
