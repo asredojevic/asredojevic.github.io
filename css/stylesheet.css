@@ -55,6 +55,24 @@ ul{
 	background-color: #ffffff;
 }
 
+.close{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 25%;
+  display:block;
+  }
+ .close a{
+	text-decoration: none;
+	color: #eeeeee;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	 }
+.close a:hover{
+	color:#777777;
+	}
+
 #headerImage{
 	display:block;
     	margin-left:auto;
