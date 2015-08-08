@@ -15,19 +15,14 @@ $password = "admin";  // Modify Password to suit for access, Max 10 Char.
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>Allison Sredojevic</title>
+<head>
+<title>Simple Password Protect - PHP PasswordProtect</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <style type="text/css">
 <!--
-
  @font-face {
   font-family: "Open Sans";
-  src: url("../../../Downloads/password-protect/OpenSans.otf");
+  src: url("file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/OpenSans.otf");
   }
  
 
@@ -145,8 +140,7 @@ a{
 	.single-img{
 	width:90%;
 	}
-
-TD { FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma, Arial}
+</style>
 -->
 </style>
 </head>
@@ -177,14 +171,14 @@ if (isset($_POST["password"]) && ($_POST["password"]=="$password")) {
 </p>
 </div>
 <div class="list">
-<img src="../../../Downloads/password-protect/list.jpg" alt="list">
+<img src="file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/images/list.jpg" alt="list">
 </div>
 <div class="content">
 <p>The image below depicts the site architecture (of a user not signed in) along the paths that both buyers and sellers can come across.
 </p>
 </div>
 <div class="site-arch">
-<img src="../../../Downloads/password-protect/site-arch.jpg" alt="arch">
+<img src="file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/images/site-arch.jpg" alt="arch">
 </div>
 
 <div class="content">
@@ -197,7 +191,7 @@ if (isset($_POST["password"]) && ($_POST["password"]=="$password")) {
 </div>
 <div style="width:70%;margin-left:auto; margin-right:auto;padding:25px 0 25px 0;">
 <div style="background-color:#e2e2e2; width:100%;" class="single-img">
-       <img src="../../../Downloads/password-protect/UserFlow.gif" alt="interactionGIF"/>
+       <img src="file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/images/UserFlow.gif" alt="interactionGIF"/>
       </div>
 </div>
 <hr>
@@ -209,18 +203,19 @@ if (isset($_POST["password"]) && ($_POST["password"]=="$password")) {
 <h4>browser search for west elm funiture</h4>
 </div>
 <div class="browserSearch">
-<img src="../../../Downloads/password-protect/browserSearch.jpg" alt="westelm">
+<img src="file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/images/browserSearch.jpg" alt="westelm">
 </div>
 
 <div>
 <h4>details page for modern couch</h4>
 </div>
 <div class="browserSearch">
-<img src="../../../Downloads/password-protect/itemDetails.jpg" alt="westelm">
+<img src="file:///Macintosh HD/Users/allisonsredojevic/Downloads/password-protect/images/itemDetails.jpg" alt="westelm">
 </div>
 <div>
 <h4> by allison sredojevic</h4>
 </div>
+
 
 <!-- END OF HIDDEN HTML -->
 <?php 
