@@ -5,7 +5,7 @@ $pass = $_POST['pass'];
 if($user == "admin"
 && $pass == "admin")
 {
-        include("secure.html");
+        include("Google.html");
 }
 else
 {
