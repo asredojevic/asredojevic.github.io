@@ -148,6 +148,8 @@ ul{
 	width:100%;
 	text-align: center;
 	z-index:1;
+	border-top: none;
+	border-bottom: none;
 	}
 	
 .sticky-navigation.stuck a{
