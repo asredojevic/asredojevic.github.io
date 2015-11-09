@@ -92,6 +92,7 @@ ul{
 	transition:all .28s ease-in .1s;
 }
 
+
 .sticky-navigation {
 	width:80%;
 	background-color: #ffffff;
@@ -175,10 +176,25 @@ ul{
 	margin: auto;
 	padding:10px;
 	}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}	
+ 
+.text {
+    position: absolute;
+    color:#fff;
+    background-color:rgba(0,0,0,0.5);
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+	padding:10px 0 10px 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.text:hover {
+    opacity:1;
+}
 
 #aboutMe {
 	width:100%;
