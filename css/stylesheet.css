@@ -89,7 +89,7 @@ ul{
 }
 #headerImage img:hover{
 	opacity: 0.3;
-	transition:all .28s ease-in .1s;
+	transition:all .1s ease-in .1s;
 }
 
 
@@ -97,8 +97,8 @@ ul{
 	width:80%;
 	background-color: #ffffff;
 	text-align: center;
-	border-top: #777777 1px solid;
-	border-bottom: #777777 1px solid;
+	border-top: #999999 1px solid;
+	border-bottom: #999999 1px solid;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -138,17 +138,19 @@ ul{
 	text-decoration: none;
 	outline: none;
 	text-align: center;
-	transition:all .28s ease-in .1s;
+	transition:all .1s ease-in .1s;
 }
 .sticky-navigation.stuck{
     	position: fixed;
 	top: 0;
     	left:0;
-    	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    	box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 	margin: 0 auto 0 auto;
 	width:100%;
 	text-align: center;
 	z-index:1;
+	border-top: none;
+	border-bottom: none;
 	}
 	
 .sticky-navigation.stuck a{
@@ -250,7 +252,7 @@ ul{
 .btn:hover{
 	background:#FF6267;
 	color:#ffffff;
-	transition:all .15s ease-in .1s;
+	transition:all .1s ease-in .1s;
 	}
 
 #contact{
@@ -266,7 +268,7 @@ ul{
 
 #contact a:hover{
 	opacity: 0.3;
-	transition:all .28s ease-in .1s;
+	transition:all .1s ease-in .1s;
 }
 
 .info{
