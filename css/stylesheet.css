@@ -177,6 +177,8 @@ ul{
 	margin-right: auto;
 	margin: auto;
 	padding:10px;
+	max-width:100%;
+	height:auto;
 	}
  
 .text {
