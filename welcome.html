@@ -1,0 +1,658 @@
+<!DOCTYPE html><head>
+<meta charset="utf-8">
+
+<title>Welcome to AdCenter</title>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+<link href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/prototype.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<style>
+@charset "UTF-8";
+<style>
+
+body{
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:18px;
+	text-align:left;
+	}
+h1{
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:36px;
+	font-weight:100;
+	text-align:center;
+	color:#4f4f4f;
+	line-height:1;
+	padding:30px 0 0 0;
+	}
+h2{font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:24px;
+	font-weight:100;
+	text-align:center;
+	color:#4f4f4f;
+	line-height:1;
+	text-align:left;
+	}
+	
+
+p{
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:18px;
+	font-weight:100;
+	text-align:center;
+	color:#4f4f4f;
+	line-height:.25;
+	padding:0 0 50px 0;;
+	}
+a{
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+font-size:18px;
+color:#0084a9;
+text-decoration:none;
+	}
+
+	#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	height:100%;
+	
+}
+.logo img{
+	position:relative;
+	z-index:2;
+	top:60px;
+	padding-left:15px;
+	}
+.navigation {
+	width:100%;
+	background-color: #ffffff;
+	text-align: left;
+	border-bottom: #4f4f4f 4px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:42px;
+	padding-left:100px;
+}
+.navigation ul{
+	margin-left: 10%;
+	margin-right: auto;
+	text-align:left;
+	display: inline;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	}
+
+.navigation ul li {
+	display: inline;
+	padding:0 30px 0 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+	display: block;
+	position: relative;
+	float: left;
+	background-color:#fff;
+}
+
+
+.navigation a {
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:1em;
+	color:#333333;
+	text-decoration:none;
+	outline:none;
+	display:inline;
+	text-align:left;
+	
+}
+
+
+.navigation a:hover{
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	font-size: 1em;
+	color: #0084a9;
+	border-bottom: #0084a9 4px solid;
+	text-decoration: none;
+	outline: none;
+	text-align: left;
+	padding-bottom: 20px;
+	
+}
+
+.navigation li ul{
+	display:none;
+	}
+
+
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #fff;}
+  li:hover li a:hover {background: #fff; border:0;}
+
+.navigation img{
+	display:inline;
+	}
+.orangeNavigation{
+	width:100%;
+	background-color: #ff6633;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px 0 5px 20px;}
+	
+.logOut{
+	position: absolute;
+  top: 95px;
+  right: 15px;
+  display:block
+	}
+	
+	form{
+	
+    -webkit-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: inherit;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin-left: auto;
+	margin-right: auto;
+    vertical-align: top;
+    width: 400px;
+	display: block;
+	}
+input{
+	border: 1px solid #999;font-family: inherit;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+	margin-top:10px;
+	margin-left: auto;
+	margin-bottom:10px;
+	margin-right: auto;
+	text-align:center;
+	}
+	
+	select{
+		border: 1px solid #999;font-family: inherit;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+	margin-top:10px;
+	margin-left: auto;
+	margin-bottom:10px;
+	margin-right: auto;
+	text-align:center;
+	background-color:#ffffff;
+		}
+	option{
+		font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+    font-size: 18px;
+	
+		}
+	.welcomeContent{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.findButton{
+border-radius: 0;
+    -webkit-border-radius: .35em;
+    -moz-border-radius: .35em;
+    border-radius: .35em;
+    cursor: pointer;
+    position: relative;
+    background: #82C013;
+    border: 1px solid #82C013;
+	padding:10px;
+	width:70%;
+	text-align: center;
+	margin:50px 0 60px 0;
+}
+
+.findButton a{
+	color: #fff;
+	font-size:18px;
+	text-decoration:none;
+	vertical-align:middle;
+	}
+	
+.yourProperty{
+	width:70%;
+	border: #eeeeee 1px solid;
+	margin-top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	clear:both;
+	max-width:675px;
+	}
+.propertyInfo{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	padding:20px 0 20px 0;
+	height:100%;
+	display:block;
+	}
+.address{
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	
+		}
+.mapRight{
+	float:right;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.propertyInfo address a{
+	font-size:18px;
+	color:#0084a9;
+	text-decoration:none;
+}
+
+
+.buttonGray{
+	border-radius: 0;
+    -webkit-border-radius: .35em;
+    -moz-border-radius: .35em;
+    border-radius: .35em;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: #f2f2f2;
+    border: 1px solid ##999;
+	padding:10px;
+	width:40%;
+	text-align: center;
+	margin: 20px 25px 0 0;
+	v-align:center;
+	
+}
+
+.buttonGray a{
+	color: #808080;
+	font-size:18px;
+	text-decoration:none;
+	vertical-align:center;
+	}
+	
+.button{
+	border-radius: 0;
+    -webkit-border-radius: .35em;
+    -moz-border-radius: .35em;
+    border-radius: .35em;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: #82C013;
+    border: 1px solid #82C013;
+	padding:10px;
+	width:40%;
+	text-align: center;
+	margin:30px 0 20px 0;
+	
+}
+
+.button a{
+	color: #fff;
+	font-size:18px;
+	text-decoration:none;
+	}
+
+.noProperty{
+	padding:20px 0 0 0;
+	}
+.hr{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.listingContent{
+	width:80%;
+	margin-left:17%;
+	max-width:900px;
+	}
+.activeListings{
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:36px;
+	font-weight:100;
+	text-align:left;
+	color:#4f4f4f;
+	line-height:1;
+	padding:40px 0 20px 0;
+	
+	}
+	
+.subNavigation{
+	width:100%;
+	background-color: #ffffff;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px 0 20px 0;
+	color:#515151;
+	
+	}
+	
+.subNavigation ul{
+	
+	margin-right: auto;
+	text-align:left;
+	display: inline;
+	}
+
+.subNavigation ul li {
+	display: inline;
+	padding:0 15px 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+}
+.subNavigation ul li:first-child {
+	padding: 0 15px 0 0;
+	}
+
+.subNavigation a {
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
+	font-size:1em;
+	color:#515151;
+	text-decoration:none;
+	outline:none;
+	display:inline;
+	text-align:left;
+}
+
+
+.subNavigation a:hover{
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	font-size: 1em;
+	color: #0084a9;
+	text-decoration: none;
+	outline: none;
+	text-align: left;
+	padding-bottom: 20px;
+	
+}
+.listingBanner{
+	display:block;
+	clear:both;
+	padding:10px 0 10px;
+	border-top: #eeeeee 1px solid;
+	}
+.listingImage{
+		float:left
+		
+		}
+.listingAddress{
+    overflow: hidden;
+	float:left;
+	margin:5px 20px;
+	}
+.editView{
+	margin:5px 20px;
+	float: right;
+	}
+	
+.spw{
+	float:left;
+	font-size:14px;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
+	color:#808080;
+	display:block;
+	
+	}
+
+.spw a{
+	font-size:14px;
+	}
+	
+.welcomeImage{
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.welcomeImage img{
+	position:relative;
+
+	}
+	
+.welcomeImage ul{
+	display: inline;
+	}
+.welcomeImage ul li{
+	display: inline;
+	}
+	
+.reportingImage{
+	width:100%;
+	
+	}
+.reportingImage img{
+	width:100%;
+	padding:20px 0;
+	}
+	#dateTime {display:none;}
+	
+.reportingList{
+	display:block;
+	border-bottom:#999999 1px solid;
+	}
+.listingResults{
+	align:left;
+	border-right:#999999 1px solid;
+	float:left;
+	padding:0 25px 0 25px;
+	margin:20px 0 20px 0;
+	}
+	
+.listingResults p{
+	font-size:18px;
+	font-weight:600;
+	line-height:1;
+	text-align:left;
+	padding:0;
+	color:#4D4D4D;
+	}
+.listingResults span{
+	font-size:13px;
+	font-weight:300;
+	}
+.shareButton{
+	border-radius: 0;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    border-radius: 5em;
+    cursor: pointer;
+
+    background:#ffffff ;
+    border: 1px solid #82C013;
+	padding:10px;
+	width:80%;
+	text-align: center;
+	float:right;
+	margin:30px 0 20px 0;
+}
+
+.shareButton a{
+	color: #82C013;
+	font-size:18px;
+	text-decoration:none;
+	}
+	
+
+.reportingIcon{
+	-webkit-transition: width 4s;
+	transition: width 4s ease-in-out;
+	}
+.reportingIcon img:hover{
+	z-index:3;
+	width:35%
+}
+
+.accountIcon{
+	-webkit-transition: width 4s;
+	transition: width 4s ease-in-out;
+	}
+.accountIcon img:hover{
+	width:40%
+}
+
+.editIcon{
+	-webkit-transition: width 4s;
+	transition: width 4s ease-in-out;
+	}
+.editIcon img:hover{
+	z-index:3;
+	width:35%
+}
+
+.grayBox{
+	background-color: #eeeeee;
+	}
+.resultsInfo{
+	width:33%;
+	text-align:center;
+	float:left;
+	padding:10px 0 0 0;
+	}
+.accountInfo{
+	width:33%;
+	text-align:center;
+	float:left;
+	padding:10px 0 0 0;
+	}
+.editInfo{
+	width:33%;
+	text-align:center;
+	float:left;
+	padding:10px 0 0 0;
+	}
+
+@media only screen and (max-width: 769px) {
+	.navigation ul li{
+	display:none;
+}
+	.resultsInfo{
+		width:100%;
+		display:block;
+		}
+	.accountInfo{
+		width:100%;
+		display:block;
+		padding:30px 0 0 0;
+		}
+	.editInfo{
+		width:100%;
+		display:block;
+		padding:30px 0 0 0;
+		}
+
+}
+
+@media only screen and (max-width: 481px){
+	
+}
+</style>
+<body>
+<div id="container">
+
+
+<div class="logo">
+<a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/welcome.html"><img src="images/Logo.png"></a>
+</div>
+<div class="navigation">
+<ul>
+<li><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/Listings.html">MY LISTINGS</a></li>
+<li><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/reporting.html">MY RESULTS</a></li>
+<li><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/AccountPage.html">MY ACCOUNT</a>
+<ul style="width:40px;">
+    <li style="background-color:#fff;width:110px;padding:30px 0 5px 5px;"><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/AccountPage.html/#profile" >Profile</a></li>
+    <li style="background-color:#fff;width:110px;padding:5px 0 5px 5px;"><a href="#photo">Photo</a></li>
+    <li style="background-color:#fff;width:110px;padding:5px 0 5px 5px;"><a href="#leads">Lead Settings</a></li>
+    <li style="background-color:#fff;width:110px;padding:5px 0 5px 5px;"><a href="#password">Password</a></li>
+    </ul>
+</li>
+</ul>
+<ul class="logOut">
+<li>
+<a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/www.homefinder.com">LOG OUT</a>
+</li>
+</ul>
+</div>
+
+<div class="welcomeContent">
+<h1>Welcome to Advertiser Center, Sue</h1>
+<p style="padding-bottom:30px;line-height:1.5;">Here are some features you can explore
+</p>
+<div class="welcomeImage" >
+<div style="width:390px; height:150px; margin-left:auto; margin-right:auto;padding:20px 0;">
+<div class="reportingIcon" style="display:inline;width:100%;margin-left:auto; margin-right:auto;"><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/reporting.html" ><img src="images/reportingIcon.png"  class="reportingIcon"></a></div>
+<script>
+$('.reportingIcon').hover(
+       function(){ $('.resultsInfo').addClass('grayBox') },
+       function(){ $('.resultsInfo').removeClass('grayBox') }
+)
+</script>
+<div class="accountIcon" style="display:inline; margin:0 -30px 0 -30px; width:100%;"><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/AccountPage.html"><img style="z-index:2;"src="images/accountIcon.png"></a></div>
+
+<script>
+$('.accountIcon').hover(
+       function(){ $('.accountInfo').addClass('grayBox') },
+       function(){ $('.accountInfo').removeClass('grayBox') }
+)
+</script>
+
+<div class="editIcon" style="display:inline;width:100%;margin-left:auto; margin-right:auto;"><a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/Listings.html"><img src="images/editIcon.png" alt="welcome features"></a></div>
+<script>
+$('.editIcon').hover(
+       function(){ $('.editInfo').addClass('grayBox') },
+       function(){ $('.editInfo').removeClass('grayBox') }
+)
+</script>
+
+</div>
+</div>
+
+<div style="clear:both;"></div>
+<div style="padding:50px 0 0 0;width:100%;margin:0 auto 0 auto;">
+<div class="resultsInfo">
+<a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/reporting.html" style="text-align:center;border-bottom: #e5e5e5 1px solid;padding: 0 0 10px 0; font-weight:600; "> View Your Results</a>
+<p style="line-height:1.5;padding:0;">Examine New Leads<br>
+See Property Impressions</p>
+</div>
+<div class="accountInfo">
+<a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/AccountPage.html" style="text-align:center;border-bottom: #e5e5e5 1px solid;padding: 0 0 10px 0;font-weight:600; "> Update Your Account</a>
+<p style="line-height:1.5; padding:0;">Change your password<br>
+Switch your agent photo</p>
+</div>
+<div class="editInfo">
+<a href="file:///Macintosh HD/Users/allisonsredojevic/Google Drive/Design/TOS HomeFinder/Advertiser Center/2015 Redesign/html 2/Listings.html" style="text-align:center;border-bottom: #e5e5e5 1px solid;padding: 0 0 10px 0;font-weight:600; "> Edit Your Listing</a>
+<p style="line-height:1.5; padding:0;">Update listing photos<br>
+Schedule an open house</p> 
+</div>
+<div style="clear:both;">
+</div>
+</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
