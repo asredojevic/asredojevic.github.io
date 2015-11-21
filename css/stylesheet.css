@@ -181,6 +181,7 @@ ul{
 	height:auto;
 	}	
 
+
 #aboutMe {
 	width:100%;
 	position:relative;
@@ -276,7 +277,8 @@ ul{
 	margin: 0 auto 0 auto;
 	width:60%;
 	max-width:800px;
-	padding: 50px 0 50px 0;}
+	padding: 50px 0 50px 0;
+	}
 	
 .ats-website img{
 	width:100%;}
