@@ -191,9 +191,8 @@ padding:30px 0 0 0;
 .box .overbox {
   background-color: rgba(0,0,0,0.65);
   position: absolute;
-  <!--top:0;-->
+  top:0;
   left: 0;
-  <!--bottom:0;-->
   color: #fff;
   z-index: 2;
   -webkit-transition: all 300ms ease-out;
@@ -203,7 +202,7 @@ padding:30px 0 0 0;
   transition: all 300ms ease-out;
   opacity: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   
 }
 
