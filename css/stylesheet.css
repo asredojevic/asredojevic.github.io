@@ -66,12 +66,12 @@ ul{
   background-position: center;
   }
  .close a{
-  	transition: transform .8s ease-in-out;
+  	transition: transform 1s ease-in-out;
 	 }
 .close a:hover{
 	color:#777777;
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
 	}
 
 #headerImage{
