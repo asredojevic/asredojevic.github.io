@@ -61,14 +61,11 @@ ul{
   right: 15px;
   width: 6%;
   display:block;
+  background-image: url("images/Close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   }
  .close a{
-	text-decoration: none;
-	color: #eeeeee;
-	font-size: 30px;
-	font-weight: 100;
-	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
-	-webkit-transition: -webkit-transform .8s ease-in-out;
   	transition: transform .8s ease-in-out;
 	 }
 .close a:hover{
