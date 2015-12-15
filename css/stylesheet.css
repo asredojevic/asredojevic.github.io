@@ -70,8 +70,8 @@ ul{
 	 }
 .close a:hover{
 	color:#777777;
-	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
 	}
 
 #headerImage{
