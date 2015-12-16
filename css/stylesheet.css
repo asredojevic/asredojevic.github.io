@@ -469,6 +469,8 @@ padding:30px 0 0 0;
 	}
 	.mobileLeft-box img{
 		width:100%;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	.mobileRight-box{
 			width:90%;
@@ -477,6 +479,8 @@ padding:30px 0 0 0;
 	}
 	.mobileRight-box img{
 		width:100%;
+		margin-left:auto;
+		margin-right:auto;
 	}
 }
 	
