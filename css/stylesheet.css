@@ -389,7 +389,7 @@ padding:30px 0 0 0;
 	}
 	
 .mobileLeft-box-even{
-	width:50%;
+	width:45%;
 	display:block;
 	float: left;
 	margin-left:auto;
@@ -414,7 +414,7 @@ padding:30px 0 0 0;
 	font-size:30px;
 	}
 .mobileRight-box-even{
-	width:45%;
+	width:50%;
 	float:left;
 	text-align:left;
 	display:block;
@@ -513,6 +513,30 @@ padding:30px 0 0 0;
 		
 	}
 	.mobileRight-box img{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.mobileLeft-box-even{
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		
+	}
+	.mobileLeft-box-even img{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.mobileRight-box-even{
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		
+	}
+	.mobileRight-box-even img{
 		width:100%;
 		margin-left:auto;
 		margin-right:auto;
