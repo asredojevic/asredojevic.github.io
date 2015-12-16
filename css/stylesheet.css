@@ -372,7 +372,7 @@ padding:30px 0 0 0;
 .hf-mobile img{
 	width:100%;
 	}
-	.mobileLeft-box{
+.mobileLeft-box{
 	width:50%;
 	display:block;
 	float:left;
@@ -391,7 +391,7 @@ padding:30px 0 0 0;
 .mobileLeft-box-even{
 	width:50%;
 	display:block;
-	float:left;
+	float: left;
 	margin-left:auto;
 	margin-right:auto;
 	font-size:30px;
@@ -413,7 +413,7 @@ padding:30px 0 0 0;
 	padding: 50px 15px 0 15px;
 	font-size:30px;
 	}
-	.mobileRight-box-even{
+.mobileRight-box-even{
 	width:45%;
 	float:left;
 	text-align:left;
@@ -423,12 +423,12 @@ padding:30px 0 0 0;
 	padding:0 15px 0 0;
 	font-size:30px;
 	}
-	.mobileRight-box-even img{
+.mobileRight-box-even img{
 	width:100%;
 	max-width:300px;
 	padding:0 15px 0 0;
 	}	
-	}
+
 .ImageUploader{
 	margin-left: auto;
 	margin-right: auto;
