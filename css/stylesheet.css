@@ -1,10 +1,11 @@
 
  @font-face {
-font-family: 'Montserrat', sans-serif;
+  font-family: "Open Sans";
+  src: url("OpenSans.otf");
   }
   
 Body{
-	font-family: 'Montserrat', Helvetica, Arial, Sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
 	font-size: 16px;
 	color: #333;
 	background-color: #FFF;
@@ -12,14 +13,14 @@ Body{
 	}
   
 h2{
-	font-family:'Montserrat', Helvetica, Arial, Sans-serif;
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
 	font-size:1em;
 	color: #FF6267;
 	font-weight:bold;
 	}
 	
 h3{
-	font-family:'Montserrat', Helvetica, Arial, Sans-serif;
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
 	font-size:1.15em;
 	color: #333;
 	font-weight:bold;
@@ -29,7 +30,7 @@ h3{
 	margin:0 auto;
 	}
 h4{
-	font-family:'Montserrat', Helvetica, Arial, Sans-serif;
+	font-family:"Open Sans", Helvetica, Arial, Sans-serif;
 	font-size:.75em;
 	font-weight:300;
 	color: #777;
@@ -39,7 +40,7 @@ h4{
 	
 
 p{
-	font-family: 'Montserrat', Helvetica, Arial, Sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, Sans-serif;
 	padding: 0 0 15px 0;
 	margin: 0;
 	}
