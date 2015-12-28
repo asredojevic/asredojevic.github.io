@@ -364,12 +364,26 @@ padding:30px 0 0 0;
 	margin-left: auto;
 	margin-right: auto;
 	width:80%;
-	max-width:850px;
+	max-width:1080px;
 	padding:20px 0 50px 0;
+	background-image: url("images/SPW-Background.jpg");
+	background-repeat: no-repeat;
 	}
 .spw-responsive img{
-	width:100%;
+	width:80%;
 	}
+
+
+.spw-screens{
+	padding:0 0 100px 0;
+}
+.spw-screens img{
+	width:80%;
+}
+.spw-colors img{
+	width:100%;
+}
+
 .hf-mobile{
 	margin-left: auto;
 	margin-right: auto;
@@ -589,7 +603,10 @@ padding:30px 0 0 0;
 }
 	.spw-responsive{
 	width:100% !important;
+	max-height:80px;
 	}
+	.spw-screens {
+    padding: 70px 0 50px 0;}
 	.hf-mobile{
 	width:100% !important;
 
