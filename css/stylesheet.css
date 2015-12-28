@@ -548,7 +548,7 @@ padding:30px 0 0 0;
 		margin-right:auto;
 	}
 	.mobileRight-box-even{
-		width:95%;
+		width:90%;
 		margin-left:auto;
 		margin-right:auto;
 		text-align:center;
@@ -606,23 +606,5 @@ padding:30px 0 0 0;
 	.logos{
 	width:100% !important;	
 	}
-	.mobileLeft-box{
-	float:none;
-	}
-	.mobileLeft-box img{
-	padding:0;	
-	}
-	.mobileLeft-box-even{
-	float:none;
-	}
-	.mobileRight-box{
-	float:none;
-	padding-top:10px;
-	}
-	.mobileRight-box-even{
-	float:none;
-	}
-	.mobileRight-box-even img{
-	padding:0;
-	}
+
 }
