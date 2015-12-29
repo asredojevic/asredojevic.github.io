@@ -191,6 +191,7 @@ padding:30px 0 0 0;
 }
 .box .overbox {
   background-color: rgba(0,0,0,0.65);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   position: absolute;
   top:0;
   left: 0;
