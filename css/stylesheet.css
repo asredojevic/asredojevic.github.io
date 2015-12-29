@@ -486,8 +486,15 @@ padding:30px 0 0 0;
 	border:#CCC 1px solid;
 	}
 @media only screen and (max-width: 769px) {
-.box{
+	.box{
 	width:90%;
+	}
+	.box .overbox {
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.box:hover .overbox { 
+	opacity: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	}
 	.aboutMe-box{
 		max-width:80%;
@@ -578,6 +585,13 @@ padding:30px 0 0 0;
 	}
 	.gallery img{
 	clear: both;
+	}
+	.box .overbox {
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	.box:hover .overbox { 
+	opacity: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	}
 	.aboutMe-box{
 	max-width:90%;
