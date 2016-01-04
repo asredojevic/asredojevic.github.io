@@ -49,6 +49,11 @@ ul{
 -webkit-padding-start: 0px;
 }
 
+a, img {
+    border:none;
+    outline:none
+}
+
 #container {
 	width: 100%;
 	margin-left: auto;
