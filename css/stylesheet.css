@@ -67,7 +67,7 @@ a, img {
   right: 15px;
   width: 5%;
   display:block;
-  background-image: url("images/Close.svg");
+  background-image: url("/images/Close.svg");
   background-repeat: no-repeat;
   background-position: center;
   }
