@@ -65,7 +65,7 @@ a, img {
   position: fixed;
   top: 15px;
   right: 15px;
-  width: 6%;
+  width: 5%;
   display:block;
   background-image: url("images/Close.svg");
   background-repeat: no-repeat;
