@@ -51,7 +51,8 @@ ul{
 
 a, img {
     border:none;
-    outline:none
+    outline:none;
+    vertical-align: top;
 }
 
 #container {
