@@ -62,7 +62,7 @@ a, img {
 }
 
 .close{
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 15px;
   width: 6%;
