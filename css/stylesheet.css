@@ -79,7 +79,9 @@ a, img {
 	-webkit-transform: rotate(360deg);
 	transform: rotate(360deg);
 	}
-
+ .close a img{
+  	vertical-align:top;
+	 }
 
 #headerImage{
 	display:block;
