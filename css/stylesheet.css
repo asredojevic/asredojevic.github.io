@@ -80,6 +80,10 @@ a, img {
 	transform: rotate(360deg);
 	}
 
+.close .stuck{
+    	position: fixed;
+	z-index:5;
+
 #headerImage{
 	display:block;
     	margin-left:auto;
