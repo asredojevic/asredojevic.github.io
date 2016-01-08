@@ -83,6 +83,8 @@ a, img {
 .close .stuck{
     	position: fixed;
 	z-index:5;
+	
+}
 
 #headerImage{
 	display:block;
