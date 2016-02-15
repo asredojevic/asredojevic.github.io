@@ -68,9 +68,6 @@ a, img {
   width: 5%;
   min-width:35px;
   display:block;
-  background-image: url("/images/Close.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   }
  .close a{
   	transition: transform 1s ease-in-out;
