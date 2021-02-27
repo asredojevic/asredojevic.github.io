@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			]
 		]
 	},
 	"buffers":
@@ -40,10 +48,11 @@
 	},
 	"file_history":
 	[
+		"/Users/asredojevic/Documents/GitHub/asredojevic.github.io/css/stylesheet.css"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -81,7 +90,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -118,7 +127,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
