@@ -316,10 +316,10 @@ max-width: 100px;
 #skills {
 width:100%;
 position:relative;
-/*margin: 50px auto 50px auto;*/
+
 background:#fafafa;
 display:inline-block;
-/* min-height: 300px;*/
+
 padding: 0 0 10px 0;
 }
 
@@ -330,7 +330,7 @@ max-width:50%;
 
 	
 .skillsleft-box{
-width:59%;
+width:68%;
 display:block;
 float:left;
 margin-left:auto;
@@ -352,13 +352,14 @@ padding: 0 0 0 15px;
 .skills1{
 float: left; 
 margin-left:auto; 
-margin-right:auto;"
+margin-right:auto;
 	}
 
 .skills2{
 float: right; 
 margin-left:auto; 
-margin-right:auto;"
+margin-right:auto;
+padding-left:40px;
 	}
 	
 .btn{
@@ -908,7 +909,6 @@ width:100% !important;
 
 .skills2{
 float: left; 
-margin-left:auto; 
-margin-right:auto;"
+padding-left:0px;
 	}
 }
