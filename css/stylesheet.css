@@ -8,8 +8,8 @@ font-family: 'AbrilFatface-Regular';
 src: url(AbrilFatface-Regular.otf);
 }
 @font-face {
-font-family: 'Crimson-Text';
-src: url(Crimson_Text.otf);
+font-family: 'CrimsonText-Regular';
+src: url(CrimsonText-Regular.otf);
 }
 
 Body{
