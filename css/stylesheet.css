@@ -9,7 +9,7 @@ src: url(AbrilFatface-Regular.otf);
 }
 @font-face {
 font-family: 'CrimsonText-Regular';
-src: url(CrimsonText-Regular.otf);
+src: url(https://yoursite.com/css/CrimsonText-Regular.ttf);
 }
 
 Body{
