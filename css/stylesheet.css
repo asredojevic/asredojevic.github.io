@@ -21,13 +21,13 @@ text-align: center;
 }
  
 h1{
-font-family:'Crimson-Text', serif;
+font-family:'CrimsonText-Regular', 'Lato';
 font-size:54px;
 color: #414141;
 } 
 
 h2{
-font-family:'Crimson-Text', serif;
+font-family:'CrimsonText-Regular', 'Lato', serif;
 font-size:18px;
 color: #414141;
 font-weight:bold;
