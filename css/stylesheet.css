@@ -7,6 +7,10 @@ src: url(Lato.otf);
 font-family: 'AbrilFatface-Regular';
 src: url(AbrilFatface-Regular.otf);
 }
+@font-face {
+font-family: 'Crimson-Text';
+src: url(Crimson_Text.otf);
+}
 
 Body{
 font-family: 'Lato', sans-serif;
@@ -17,13 +21,13 @@ text-align: center;
 }
  
 h1{
-font-family:'AbrilFatface-Regular', serif;
+font-family:'Crimson-Text', serif;
 font-size:54px;
 color: #414141;
 } 
 
 h2{
-font-family:'AbrilFatface-Regular', serif;
+font-family:'Crimson-Text', serif;
 font-size:18px;
 color: #414141;
 font-weight:bold;
