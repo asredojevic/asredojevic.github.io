@@ -11,7 +11,7 @@ src: url(CrimsonText-Regular.ttf);
 Body{
 font-family: 'Lato', sans-serif;
 font-size: 18px;
-color: #273341;
+color: #102946;
 background-color: #FFF;
 text-align: center;
 }
@@ -19,24 +19,23 @@ text-align: center;
 h1{
 font-family: 'Crimson Text', 'Lato';
 font-size:54px;
-color: #273341;
+color: #102946;
 line-height: 1.25;
 margin-bottom:10px !important;
 } 
 
 h2{
-font-family: 'Crimson Text', 'Lato', serif;
-font-size:20px;
-color: #273341;
+font-family: 'Lato', san-serif;
+font-size:26px;
+color: #102946;
 font-weight:bold;
 }
 	
 h3{
 font-family: 'Lato', sans-serif;
-font-size:1.15em;
-color: #273341;
-font-weight:bold;
-border-top:#777777 1px solid;
+font-size:20px;
+color: #102946;
+font-weight: bold;
 padding:30px 0 0 0;
 text-align:center;
 margin:0 auto;
@@ -44,9 +43,9 @@ margin:0 auto;
 
 h4{
 font-family: 'Lato', sans-serif;
-font-size:.75em;
+font-size:16px;
 font-weight:300;
-color: #273341;
+color: #102946;
 padding:2px 0 10px 0;
 margin:0 auto;
 }
@@ -622,8 +621,6 @@ height:100%;
 
 
 
-
-
 @media only screen and (max-width: 1100px){
 
 .aboutMe-box{
@@ -773,7 +770,7 @@ width:90%;
 width:90%;
 padding: 30px 0 30px 0;
 }
-}
+
 
 
 
