@@ -69,15 +69,6 @@ ul{
 -webkit-padding-start: 0px;
 }
 
-a.temp{
-	text-decoration: underline;
-	color:#ffffff;
-}
-
-a.temp:hover {
-	color: #102946;
-	background-color:none !important;
-}
 
 a {
   color: #273341;
@@ -110,7 +101,6 @@ a, img {
 border:none;
 outline:none;
 }
-
 
 
 
