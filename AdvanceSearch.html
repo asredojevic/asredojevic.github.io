@@ -13,83 +13,89 @@
 
 <body>
 <div class="close"><a href="index.html"><img src="/images/Close.svg" data-pin-nopin="true"></a></div>
+
+
 <div id="container">
-
 <!-- information-->
-<div class="info">
-<h1>Arrow Advance Search</h1>
-<h4>user experience and interface</h4>
+
+	<div class="info">
+		<h1>Arrow Advance Search</h1>
+		<p>User Reaserach, Experience, and Interface</p>
+	</div>
+<div class="content">
+	<div class="Arrow-box">
+		<h6 style="text-align:left;">PROBLEM</h6>
+		<h2 class="portfolio">Search Journey</h2>
+		<div class="ArrowLeft-box">
+			<p style="text-align:left;">From a survey sent out quarterly, we received feedback that users were experiencing difficulty searching over 3 million parts and found that our search algorithm only returned valuable results when users entered a specific part number.</p>
+			<p>After looking at what our users were entering into the search bar, we discovered that around <span style= "background-color: rgba(211, 234, 110, .85); font-weight:bold;"> 58% of arrow.com searches were either family names, part numbers or part names.</span> Meaning we were only capturing users at the end of their sourcing journey instead of the beginning.</p>
+		</div>
+
+		<div class="ArrowRight-box">
+			<div style=" width:25%;" class="AdvanceSearch-box">
+				<img  src="images/partNo.png">
+				<h4 style="text-align:center;">part no search</h4>
+			</div>
+			<div style=" width:25%;" class="AdvanceSearch-box">
+				<img  src="images/category.png">
+				<h4 style="text-align:center;">category search</h4>
+			</div>
+			<div style=" width:25%;" class="AdvanceSearch-box">
+				<img  src="images/manufacturer.png">
+				<h4 style="text-align:center;">manufacturer search</h4>
+			</div>
+
+		</div>
+	</div>
+	<div style="clear:both;"></div>
 </div>
 
-<div class="Arrow-box">
-<div class="ArrowLeft-box">
-	<h2 style="text-align:left;">PROBLEM </h2>
-	<p style="text-align:left;">From a survey sent out quarterly, we received feedback that users were experiencing difficulty searching over 3 million parts and found that our search algorithm only returned valuable results when users entered a specific part number.<br>
-	After looking at what our users were entering into the search bar, we discovered that around 58% of arrow.com searches were either family names, part numbers or part names. Meaning we were only capturing users at the end of their sourcing journey instead of the beginning.
- </p>
-</div>
-
-<div class="ArrowRight-box">
-<div style=" width:25%;" class="AdvanceSearch-box">
-	<img  src="images/partNo.png">
-	<h4 style="text-align:center;">part no search</h4>
-</div>
-<div style=" width:25%;" class="AdvanceSearch-box">
-	<img  src="images/category.png">
-	<h4 style="text-align:center;">category search</h4>
-</div>
-<div style=" width:25%;" class="AdvanceSearch-box">
-	<img  src="images/manufacturer.png">
-	<h4 style="text-align:center;">manufacturer search</h4>
-</div>
-
-</div>
-</div>
-<div style="clear:both;padding-bottom:50px;"></div>
-
-<div class="Arrow-info"style="padding-top: 0px;">
-<h2> RESEARCH </h2>
-<p> The journey an engineer goes through to source parts can be pretty complex but it does usually follow a similar flow (image of buying flow). From user interviews we discovered that at the research point, our users typically know the specific category and some constraint of the part they need but since our search performed best when searching part numbers we were losing sessions and possibly conversions due to users not being about to research on arrow.com. Our goal was to allow users to easily engage with specific categories and parametric before searching for a specific part, in hopes that we would be able to catch the user earlier in the sourcing processes.
-</p>
-</div>
-
-<div style="clear:both;"></div>
+<div class="content">
+<h6 style="text-align:left;">RESEARCH</h6>
+<h2 class="portfolio"> Part Search and Purchase Flow </h2>
+<p> The journey an engineer goes through to source parts can be pretty complex but it does usually follow a similar flow. From user interviews we discovered that at the research point, our users typically know the specific category and some constraint of the part they need but since our search performed best when searching part numbers we were losing sessions and possibly conversions due to users not being about to research on arrow.com. </p>
 <div class="CategoryJourney">
-	<img src="images/engineerJourney.png" width="750px">
+	<img src="images/engineerJourney.png">
 </div>
-
-
-<div class="Arrow-box">
-<div class="ArrowLeft-box">
-	<h2 style="text-align: left">DESIGN</h2>
-	<p style="text-align:left;">Our first thought was to expose specific categories that our search algorithm runs through in a text field form and have users manually enter data into each field. Through user test feedback we discovered our users:</p>
-	<ul style="text-align:left;">
-		<li>had concerns about entering the content into the correct text field and spelling mistakes </li>
-		<li>were confused on the difference between search term and description fields </li>
-		<li>were confused by the full page take over and weren’t able to use the browser back button </li>
-
-	</ul>
-</div>
-
-<div class="ArrowRight-box">
-<img style="border: 1px solid #dedede;" src="images/AdvancedSearch-V1@2x.png">
-</div>
-</div>
-
-<div style="clear:both;"></div>
-
-<div class="info" style="padding-top: 40px;">
-<p>From that feedback we removed the description field and changed the visual treatment to a modal. Instead of using text input fields, we created a smart typeahead drop down fields. For example if you selected a category and then proceeded to the manufacturing dropdown, you would only be able to select manufacturer’s from the selected category. 
+<p style="padding-top:24px;">Our goal was to <span style= "background-color: rgba(211, 234, 110, .85); font-weight:bold;">allow users to easily engage with specific categories and parametric before searching for a specific part</span>, in hopes that we would be able to catch the user earlier in the sourcing processes.
 </p>
 </div>
 
-<div class="Arrow-box" style="margin-bottom:40px;">
-<div class="ArrowLeft-box">
-<img src="images/AdvancedSearch-V2@2x.png"/>
+
+<div class="content">
+	<h6 style="text-align: left">TESTING</h6>
+	<h2 class="portfolio"> Engineer Feedback</h2>
+	<div class="left-box">
+		<p style="text-align:left;">Our first thought was to expose specific categories that our search algorithm runs through in a text field form and have users manually enter data into each field. Through user test feedback we discovered our users:</p>
+		<ul style="text-align:left;">
+			<li>had concerns about entering the content into the correct text field and spelling mistakes </li>
+			<li>were confused on the difference between search term and description fields </li>
+			<li>were confused by the full page take over and weren’t able to use the browser back button </li>
+		</ul>
+	</div>
+
+	<div class="right-box">
+		<img style="border: 1px solid #dedede;" src="images/AdvancedSearch-V1@2x.png">
+	</div>
+	<div style="clear:both;"></div>
 </div>
 
-<div class="ArrowRight-box">
-<img src="images/AdvancedSearch-V2-Manufacturer@2x.png"/>
+
+
+<div class="content">
+	<h6 style="text-align: left;"> SOLUTION</h6>
+	<h2 class="portfolio"> Simplifications & Enhancements </h2>
+	<p>From that feedback we removed the description field and changed the visual treatment to a modal. Instead of using text input fields, we created a smart typeahead drop down fields. For example if you selected a category and then proceeded to the manufacturing dropdown, you would only be able to select manufacturer’s from the selected category. </p>
+
+	<div>
+	<div class="left-box">
+		<img src="images/AdvancedSearch-V2@2x.png"/>
+	</div>
+
+	<div class="right-box">
+		<img src="images/AdvancedSearch-V2-Manufacturer@2x.png"/>
+	</div>
+	<div style="clear:both;"></div>
 </div>
 </div>
 
