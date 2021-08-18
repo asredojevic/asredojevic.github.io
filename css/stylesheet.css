@@ -34,6 +34,7 @@ text-align: left;
 h2.portfolio{
 font-family: 'Crimson Text', san-serif;
 margin:0 0 14px 0;
+text-align: left;
 }	
 
 h3{
@@ -68,7 +69,7 @@ h6{
 font-family: 'Lato', sans-serif;
 font-size:14px;
 font-weight:700;
-color: #365CEA
+color: #365CEA;
 /*padding:2px 0 10px 0;*/
 margin:0 auto;
 letter-spacing: 2px;
