@@ -304,7 +304,8 @@ v-align:center;
 }
 
 .right-box img{
-width: 100%;
+width: 100% !important;
+margin: 0 auto !important;
 }
 
 .content{
