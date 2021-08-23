@@ -315,6 +315,7 @@ width: 100%;
 
 .content img{
 	width: 90%;
+	margin: 0 auto;
 }
 
 .btn{
@@ -338,26 +339,27 @@ transition:all .1s ease-in .1s;
 
 
 .info{
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 margin-bottom:50px;
 text-align:center;
-border-bottom: 2px solid #DFA191;
+/*border-bottom: 2px solid #DFA191;*/
 }
 	
 .info p{
 max-width:100%;
 text-align:center;
-margin:auto 0 auto 0;
+margin:auto 0;
 font-family: 'Lato', sans-serif;
 }
 
-
-
-
-
-
-
+.info:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 20%; /* Change this to whatever width you want. */
+    padding-top: 8px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #DFA191; /* This creates the border. Replace black with whatever color you want. */
+}
 
 .ats-background{
 background-color:#f0f1f1;
