@@ -11,7 +11,7 @@ src: url(CrimsonText-Regular.ttf);
 Body{
 font-family: 'Lato', sans-serif;
 font-size: 18px;
-color: ##333333;
+color: #333333;
 background-color: #FFF;
 }
  
@@ -82,7 +82,7 @@ padding: 0 0 15px 0;
 margin: 0;
 line-height:1.45;
 font-weight: regular;
-color: ##333333;
+color: #333333;
 text-align: left;
 }
 
@@ -311,6 +311,10 @@ width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom:74px;
+}
+
+.content img{
+	width: 90%;
 }
 
 .btn{
@@ -583,7 +587,7 @@ padding: 0 0 0 15px;
 width:100%;
 max-width:450px;
 }	
-
+/*
 .CategoryJourney{
 margin-left:auto;
 margin-right:auto;
