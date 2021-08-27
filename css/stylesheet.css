@@ -2,11 +2,12 @@
 font-family: 'Lato';
 src: url(Lato.otf);
 }
-
+/*
 @font-face {
-font-family: 'CrimsonText-Regular';
+font-family: 'Lora', serif;
 src: url(CrimsonText-Regular.ttf);
 }
+*/
 
 Body{
 font-family: 'Lato', sans-serif;
@@ -16,8 +17,8 @@ background-color: #FFF;
 }
  
 h1{
-font-family: 'Crimson Text', 'Lato';
-font-size:54px;
+font-family: 'Lora', serif;
+font-size: 54px;
 color: #102946;
 line-height: 1.25;
 margin-bottom:10px !important;
@@ -32,7 +33,7 @@ text-align: left;
 }
 
 h2.portfolio{
-font-family: 'Crimson Text', san-serif;
+font-family: 'Lora', serif;
 margin:0 0 14px 0;
 text-align: left;
 }	
@@ -277,6 +278,7 @@ transform: rotate(360deg);
 
 .close a img{
 vertical-align:top;
+display: block;
 }
 	
 .left-box{
@@ -304,8 +306,9 @@ v-align:center;
 }
 
 .right-box img{
-width: 100% !important;
-margin: 0 auto !important;
+width: 100%;
+margin: 0 auto;
+display: block;
 }
 
 .content{
@@ -317,6 +320,7 @@ margin: 0 auto !important;
 .content img{
 	width: 90%;
 	margin: 0 auto;
+	display: block;
 }
 
 .btn{
