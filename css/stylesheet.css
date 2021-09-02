@@ -2,12 +2,12 @@
 font-family: 'Lato';
 src: url(Lato.otf);
 }
-/*
+
 @font-face {
 font-family: 'Lora', serif;
-src: url(CrimsonText-Regular.ttf);
+src: url('lora-variablefont_wght.woff2') format('woff2'),
 }
-*/
+
 
 Body{
 font-family: 'Lato', sans-serif;
