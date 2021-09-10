@@ -146,7 +146,7 @@ text-align: left;
 }
 
 .aboutMe-box a {
-	background-image: images/link_background.png;
+	background-image: url("images/link_background.png");
 	background-position: 0 .7em;
   background-repeat: repeat-x;
   text-decoration: none;
