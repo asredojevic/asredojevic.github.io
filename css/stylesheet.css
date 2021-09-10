@@ -96,7 +96,7 @@ ul{
 line-height: 1.45;
 }
 
-
+/*
 a {
   color: #273341;
   text-decoration: none;
@@ -108,21 +108,21 @@ a:link {
   color: #273341;
 }
 
-/* visited link */
+/* visited link 
 a:visited {
   color: #273341;
 }
 
-/* mouse over link */
+/* mouse over link 
 a:hover {
   background-color: #D3EA6E;
 }
 
-/* selected link */
+/* selected link 
 a:active {
   color: #578488;
 }
-
+*/
 a, img {
 border:none;
 outline:none;
@@ -137,12 +137,24 @@ background-color: #ffffff;
 max-width: 850px;
 }
 
-#aboutMe {
+.aboutMe {
 width:100%;
 position:relative;
 display:inline-block;
 padding: 20px 0 20px 0;
 text-align: left;
+}
+
+.aboutMe-box a {
+	background-image: images/link_background.png;
+	background-position: 0 .7em;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color:#273341;
+}
+
+.aboutMe-box a:hover{
+	background-image: none;
 }
 
 #skills {

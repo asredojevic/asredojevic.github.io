@@ -8,69 +8,87 @@
 <meta name="author" content="">
 <title>Allison Sredojevic</title>
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+</head>
 
 <body>
-<div class="close"><a href="index.html"><img src="/images/Close.svg" data-pin-nopin="true"></a></div>
+<div class="close"><a href="index.html"><img src="/images/Close.svg" data-pin-nopin="true"></a>
+</div>
+
+
 <div id="container">
-<div id="headerImage">
-<a href="index.html"><img src="images/Logo-web.png" alt="allison sredojevic"></a>
-</div>
 <!-- information-->
-<div class="info">
-<h3>Arrow Category Selection</h3>
-<h4>ux/ui and visual design</h4>
+
+	<div class="info">
+		<h1>Arrow Category Selection</h1>
+		<p>User Research, Experience, and Interface</p>
+	</div>
+
+	<div class="content">
+		<h6>PROBLEM</h6>
+		<h2 class="portfolio">'Where are the filters…'</h2>
+		<p> Arrow.com has millions of parts on their site and each product is classified into a category and sub category. Due the size of our product library, after a search term is entered users <strong>MUST</strong> select a product category to be presented with relevant filters. Through user testing and google analytics I realized users were missing this critical step in the search journey.</p>
+		<div>
+			<img src="images/SearchJourney.png" style="padding:36px 0 36px 0;">
+		</div>
+	</div>
+
+	<div class="content">
+		<h6>RESEARCH</h6>
+		<h2 class="portfolio">Filter Best Practice</h2>
+		<div class="left-box">
+			<p>From interviews, I knew the arrow.com user’s ideal experience would be whatever search term they used would trigger the appropriate filters to appear (magic!) but due to time and other constraints I knew that was not something I would be able to solve quickly or pitch to my team as an ‘MVP’ solution.</p>
+			<p>Instead I wondered if there was a way to solve this problem through the user flow and/ro interface and started to research how and when competitors and other companies with large libraries of products presented their filters.</p>
+		</div>
+		<div class="right-box">
+			image coming soon
+		</div>
+			<div style="clear:both;"></div>
+	</div>
+
+	<div class="content">
+		<h6>TESTING</h6>
+		<h2 class="portfolio"> Competitor Analysis</h2>
+		<div class="left-box">
+			<p>I conducted an unmoderated remote user test for 15 electrical engineers where they were asked to search for a specific part on our website, a competitor’s website and amazon.</p>
+			<p>The goal of the test was to determine: <br>
+				<ol>
+				<li>When in the user journey should category be displayed ( on the search results page or prior to the search results page)</li>
+				<li>Where is the best place to display categories and other filters (left rail or horizontal above)</li>
+				</ol>
+			</p>
+		</div>
+		<div class="right-box">
+			<img src="images/SearchResults-Original@2x.png">
+		</div>
+		<div style="clear:both;"></div>
+		<p>Findings were that user preferred categories to be displayed on the search results page and it felt too ‘disjointed’ being stopped mid way through the search. They preferred the filters on the top and stated that if they were on the left rail they would be overlooked. 
+		</p>
+	</div>
+
+	<div class="content">
+		<h6>SOLUTION</h6>
+		<h2 class="portfolio">Interface Design</h2>
+		<p>I hypothesized that by pulling the category filter to the top of the page and giving it a different visual treatment, users would engage with it more thus reducing user frustration and time spent evaluating search results. Users would be able to select a category and drill down into subcategories until they were satisfied with the specific filters and/or search results. We tested this feature by running an AB test against the original design.
+		</p>
+		<div class="left-box" style="text-align: center; font-weight: bold;">
+			<span>OPTION A</span>
+		<img src="images/SearchDesktop-CatFilterA@2x.png"/>
+		</div>
+
+		<div class="right-box" style="text-align: center; font-weight: bold; ">
+			<span>OPTION B</span>
+		<img src="images/SearchDesktop-CatFilterB@2x.png" />
+		</div>
+
+		<div style="clear:both;"></div>
+
+		<p style="padding:36px 0 36px 0;"> After our test reached significance <strong> OPTION B was declared the winner</strong>, doubling engagement from the original design.
+		</p>
+		<img src="images/Category.gif" alt="interactionGIF">
+	</div>
 
 </div>
-
-<div class="Arrow-box">
-<div class="ArrowLeft-box">
-	<p style="text-align:left;"> <strong>PROBLEM</strong> <br>Due to the millions of parts on arrow.com, users have to engage in selecting a category before they are able to see relevant part filters. Through user testing and google analytics I realized users were not engaging with the category filter, causing increased frustration with the search results and their ability to find what they needed. I brought this to the attention of the product owner and after some preliminary research, we determined that changing the visual treatment would be the simplest solution with the least effect on the performance of the page. </p>
-</div>
-
-<div class="ArrowRight-box">
-<img style="max-width:450px;" src="images/SearchResults-Original@2x.png">
-</div>
-</div>
-
-<div style="clear:both;"></div>
-
-<div class="CategoryJourney">
-	<img src="images/SearchJourney.png" width="750px">
-</div>
-
-<div class="Arrow-info" style="padding-top: 40px;">
-<p> <strong> SOLUTION </strong><br>We hypothesized that by pulling the category filter to the top of the page and giving it a different visual treatment, users would engage with it more thus reducing user frustration and time spent evaluating search results. Users would be able to select a category and drill down into subcategories until they were satisfied with the specific filters and/or search results. We tested this feature by running an AB test against the original design (options shown below)
-</p>
-</div>
-
-<div class="Arrow-box">
-<div class="ArrowLeft-box">
-	<p><strong>OPTION A</strong></p>
-<img src="images/SearchDesktop-CatFilterA@2x.png" />
-</div>
-
-<div class="ArrowRight-box">
-	<p><strong>OPTION B</strong></p>
-<img src="images/SearchDesktop-CatFilterB@2x.png" />
-</div>
-</div>
-
-<div style="clear:both;"></div>
-
-<div class="info" style="padding-top: 40px;">
-<p>After our test reached significance <strong> OPTION B was declared the winner</strong>, doubling engagement from the original design. 
-</p>
-</div>
-
-<div class="image-content">
-<div class="ImageUploader">
-<img src="images/Category.gif" alt="interactionGIF">
-</div>
-
-</div>
-</div>
-</div>
-
 </body>
 </html>
+
