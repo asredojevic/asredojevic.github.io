@@ -146,11 +146,12 @@ text-align: left;
 }
 
 .aboutMe-box a {
-	background-image: url("file:///Users/allisonsredojevic/Documents/GitHub/asredojevic.github.io/images/link_background.png");
+	background-image: url("link_background.png");
 	background-position: 0 .5em;
   background-repeat: repeat-x;
   text-decoration: none;
   color:#273341;
+  transition: background-image 0.25s linear; 
 }
 
 .aboutMe-box a:hover{
