@@ -11,7 +11,16 @@ src: url(Lato.otf);
     font-weight: normal;
     font-style: normal;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 Body{
 font-family: 'Lato', sans-serif;
@@ -97,33 +106,6 @@ ul{
 line-height: 1.45;
 }
 
-/*
-a {
-  color: #273341;
-  text-decoration: none;
-  background-color: none;
-  transition: background-color 0.25s linear; 
-}
-
-a:link {
-  color: #273341;
-}
-
-/* visited link 
-a:visited {
-  color: #273341;
-}
-
-/* mouse over link 
-a:hover {
-  background-color: #D3EA6E;
-}
-
-/* selected link 
-a:active {
-  color: #578488;
-}
-*/
 a, img {
 border:none;
 outline:none;
@@ -146,7 +128,7 @@ padding: 20px 0 20px 0;
 text-align: left;
 }
 
-.aboutMe-box a {
+.aboutMe a {
 	background-image: url("http://asredojevic.github.io/images/link_background.png");
 	background-position: 0 .5em;
   background-repeat: repeat-x;
@@ -155,7 +137,7 @@ text-align: left;
   transition: background-image 0.25s linear; 
 }
 
-.aboutMe-box a:hover{
+.aboutMe a:hover{
 	background-image: none;
 }
 
@@ -274,6 +256,30 @@ padding:100px 0;
 text-align: center;
 }
 
+
+/* CSS for project page*/
+.parentScroll{
+	scroll-snap-type: y mandatory;
+	max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom:74px;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+
+}
+
+.content img{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
 .close{
 position: fixed;
 top: 15px;
@@ -330,17 +336,6 @@ margin: 0 auto;
 display: block;
 }
 
-.content{
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom:74px;
-}
-
-.content img{
-	width: 90%;
-	margin: 0 auto;
-	display: block;
-}
 
 .btn{
 position: relative;
@@ -383,91 +378,6 @@ font-family: 'Lato', sans-serif;
     width: 20%; /* Change this to whatever width you want. */
     padding-top: 8px; /* This creates some space between the element and the border. */
     border-bottom: 2px solid #DFA191; /* This creates the border. Replace black with whatever color you want. */
-}
-
-.ats-background{
-background-color:#f0f1f1;
-}
-	
-.ats-website{
-margin: 0 auto 0 auto;
-width:60%;
-max-width:800px;
-padding: 50px 0 50px 0;
-}
-	
-.ats-website img{
-width:100%;
-}
-	
-.ats-responsive{
-margin: 0 auto 0 auto;
-width:100%;
-}
-	
-.ats-responsive img{
-width:100%;
-}
-	
-.logo{
-margin: 0 auto 0 auto;
-width:35%;
-max-width:450px;
-padding: 50px 0 50px 0;
-}
-
-.logo img{
-width:100%;
-}
-	
-.moodboard{
-width:80%;
-max-width:800px;
-margin: 0 auto 0 auto;
-padding: 50px 0 50px 0;
-}
-
-.moodboard img{
-width:100%;
-}
-
-.dac-responsive{
-margin-left: auto;
-margin-right: auto;
-width:80%;
-max-width:850px;
-padding:20px 0 50px 0;
-}
-
-.dac-responsive img{
-width:100%;
-}
-
-.spw-responsive{
-margin-left: auto;
-margin-right: auto;
-width:80%;
-max-width:1080px;
-padding:20px 0 50px 0;
-background-image: url("images/SPW-Background.jpg");
-background-size: 100% 100%;
-background-repeat: no-repeat;
-}
-
-.spw-responsive img{
-width:80%;
-}
-
-.spw-screens{
-padding:0 0 100px 0;
-}
-
-.spw-screens img{
-width:80%;
-}
-
-.spw-colors img{
-width:100%;
 }
 
 .hf-mobile{
@@ -542,121 +452,7 @@ max-width:300px;
 padding:0 15px 0 0;
 }	
 
-.ImageUploader{
-margin-left: auto;
-margin-right: auto;
-width:90%;
-max-width:850px;
-padding:15px 0 15px 0;
-}
-
-.ImageUploader img{
-width:100%;
-}
-
-.graphics{
-margin-left: auto;
-margin-right: auto;
-width:80%;
-max-width:850px;
-padding:20px 0 20px 0;
-}
-
-.graphics img{
-width:100%;
-}
-
-.logos{
-margin-left: auto;
-margin-right: auto;
-max-width:80%;
-max-width:850px;
-padding:50px 0 50px 0;
-}
-
-.logos img{
-width:100%;
-margin: 10px 0 10px 0;
-border:#CCC 1px solid;
-}
-
 	
-.Arrow-box{
-margin: 20px auto 20px auto;
-}
-
-.ArrowLeft-box{
-width:48%;
-display:block;
-float:left;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-}
-	
-.ArrowLeft-box img{
-width:100%;
-max-width:450px;
-}	
-
-.ArrowRight-box{
-width:48%;
-float:left;
-text-align:center;
-display:block;
-margin-left:auto;
-margin-right:auto;
-padding: 0 0 0 15px;
-}
-
-.ArrowRight-box img{
-width:100%;
-max-width:450px;
-}	
-/*
-.CategoryJourney{
-margin-left:auto;
-margin-right:auto;
-}
-
-.CategoryJourney img{
-width:100%;
-border: 1px solid #dedede;
-padding:30px 30px;
-}
-/*
-.Arrow-info{
-margin-left: auto;
-margin-right: auto;
-text-align:center;
-padding: 30px 0 30px 0;
-}
-	
-.Arrow-info p{
-max-width:100%;
-text-align:center;
-margin:auto 0 auto 0;
-font-family: 'Lato', sans-serif;
-}
-*/
-
-.AdvanceSearch-box {
-cursor: pointer;
-height: auto;
-position: relative;
-overflow: hidden;
-width: 27%;
-display:inline !important;
-float: left;
-margin:70px 10px;
-
-}
-
-.AdvanceSearch-box img {
-position: relative;
-width:100%;
-height:100%;
-}
 
 
 
@@ -672,27 +468,6 @@ max-width:90%;
 .skills-box{
 margin: 10px auto 10px auto;
 max-width:90%;
-}
-}
-
-@media only screen and (max-width: 850px){
-.box{
-width:90%;
-}
-
-.left-box {
-width:100%;
-margin-left:auto;
-margin-right:auto;
-}
-
-.right-box{
-margin-left:auto;
-margin-right:auto;
-width:100%;
-text-align:center;
-padding:0;
-position:relative;
 }
 .skills-box{
 max-width:100%;
@@ -714,6 +489,39 @@ width:100%;
 padding:0;
 position:relative;
 }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px){
+.box{
+width:90%;
+}
+
+.left-box {
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.right-box{
+margin-left:auto;
+margin-right:auto;
+width:100%;
+text-align:center;
+padding:0;
+position:relative;
+}
+
+.skills2{
+float: left; 
+padding-left:0px;
+	}
+}
+
 .mobileLeft-box{
 width:90%;
 margin-left:auto;
@@ -772,46 +580,10 @@ margin-left:auto;
 margin-right:auto;
 padding:0;
 }
-
-.Arrow-box{
-margin: 20px auto 20px auto;
-max-width:90%;
-}
-
-.ArrowLeft-box{
-width:100%;
-display:block;
-float:left;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-}
-	
-.ArrowLeft-box img{
-width:100%;
-max-width:450px;
-}	
-
-.ArrowRight-box{
-width:100%;
-padding: 0px;
-}
-
-.ArrowRight-box img{
-width:100%;
-margin:0px;
-
-}
 	
 .CategoryJourney img{
 width:90%;
 }
-
-.Arrow-info{
-width:90%;
-padding: 30px 0 30px 0;
-}
-
 
 
 
@@ -828,55 +600,54 @@ padding: 15px 0 15px 0;
 clear: both;
 }
 
-
-.sticky-navigation {
-width:90%;
-}
-
-.sticky-navigation ul li {
-padding: 0 5px 0 5px;
-}
-
 .info{
 width:90%;
-}
-
-.ats-website{
-width:80%;
-padding: 25px 0 25px 0;}
-}
-
-.logo{
-width:40%;
-padding: 25px 0 25px 0;
-}
-
-.moodboard{
-width:95%;
-padding: 25px 0 25px 0;
-}
-
-.spw-responsive{
-width:100% !important;
-background-size: 100% 100%;
 }
 
 .hf-mobile{
 width:100% !important;
 }
 
-.graphics{
-width:100%;
-padding:25px 0 25px 0;
-}
-
-.logos{
-width:100% !important;	
-}
 
 
-.skills2{
-float: left; 
-padding-left:0px;
-	}
+
+/*
+ * Keyframes
+ */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+}
+
