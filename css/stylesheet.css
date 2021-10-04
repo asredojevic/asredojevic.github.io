@@ -177,7 +177,7 @@ padding-right:40px;
 	}
 
 #work {
-  margin-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 .gallery {
@@ -266,7 +266,6 @@ text-align: center;
 	padding-bottom:74px;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
-
 }
 
 .content img{
@@ -375,77 +374,6 @@ font-family: 'Lato', sans-serif;
     border-bottom: 2px solid #DFA191; /* This creates the border. Replace black with whatever color you want. */
 }
 
-.hf-mobile{
-margin-left: auto;
-margin-right: auto;
-max-width:1080px;
-padding:15px 0 15px 0;
-}
-
-.hf-mobile img{
-width:100%;
-}
-
-.mobileLeft-box{
-width:50%;
-display:block;
-float:left;
-margin-left:auto;
-margin-right:auto;
-font-size:30px;
-text-align:right;
-}
-
-.mobileLeft-box img{
-width:100%;
-max-width:300px;
-padding:0 15px 0 0;
-}
-	
-.mobileLeft-box-even{
-width:50%;
-display:block;
-float: left;
-margin-left:auto;
-margin-right:auto;
-font-size:30px;
-padding:50px 15px 0 0;
-text-align:right;
-}
-
-.mobileLeft-box-even img{
-width:100%;
-max-width:300px;
-padding:0 15px 0 0;
-}
-
-.mobileRight-box{
-width:45%;
-float:left;
-text-align:left;
-display:block;
-margin-left:auto;
-margin-right:auto;
-padding: 50px 15px 0 15px;
-font-size:30px;
-}
-
-.mobileRight-box-even{
-width:45%;
-float:left;
-text-align:left;
-display:block;
-margin-left:auto;
-margin-right:auto;
-padding:0 15px 0 0;
-font-size:30px;
-}
-
-.mobileRight-box-even img{
-width:100%;
-max-width:300px;
-padding:0 15px 0 0;
-}	
 
 .nope {
 max-width:600px;
@@ -467,6 +395,8 @@ padding:54px 0 0 0;
 .nope a:hover{
   background-image: none;
 }
+
+
 
 
 
@@ -534,64 +464,7 @@ padding-left:0px;
 	}
 }
 
-.mobileLeft-box{
-width:90%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-float:none;
-}
 
-.mobileLeft-box img{
-width:100%;
-margin-left:auto;
-margin-right:auto;
-padding:0;
-}
-.mobileLeft-box-even{
-width:90%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-float:none;
-}
-
-.mobileLeft-box-even img{
-width:100%;
-margin-left:auto;
-margin-right:auto;
-padding:0;
-}
-
-.mobileRight-box{
-width:90%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-float:none;
-padding-top:10px;
-}
-
-.mobileRight-box img{
-width:100%;
-margin-left:auto;
-margin-right:auto;
-}
-
-.mobileRight-box-even{
-width:90%;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
-float:none;
-}
-
-.mobileRight-box-even img{
-width:100%;
-margin-left:auto;
-margin-right:auto;
-padding:0;
-}
 	
 .CategoryJourney img{
 width:90%;
