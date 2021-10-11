@@ -291,8 +291,9 @@ display:block;
 .close a:hover{
 color:#777777;
 background-color: #ffffff;
--webkit-transform: rotate(360deg);
-transform: rotate(360deg);
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+display: block;
 }
 
 .close a img{
@@ -464,7 +465,6 @@ padding-left:0px;
 	}
 }
 
-
 	
 .CategoryJourney img{
 width:90%;
@@ -477,24 +477,40 @@ width:90%;
 
 
 @media only screen and (max-width: 481px){
-p{
-padding: 15px 0 15px 0;
+  p{
+  padding: 15px 0 15px 0;
+  }
+
+  .gallery img{
+  clear: both;
+  }
+
+  .info{
+  width:90%;
+  }
+
+  .hf-mobile{
+  width:100% !important;
+  }
+
 }
 
-.gallery img{
-clear: both;
+.scene_element {
+  animation-duration: 3.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+
 }
 
-.info{
-width:90%;
+  /** An element that fades in */
+.scene_element--fadein {
+
+  animation-name: fadeIn;
 }
 
-.hf-mobile{
-width:100% !important;
+.scene_element--fadeinup {
+    animation-name: fadeInUp;
 }
-
-
-
 
 /*
  * Keyframes
@@ -513,7 +529,7 @@ width:100% !important;
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100px, 0);
   }
 
   100% {
@@ -533,6 +549,3 @@ width:100% !important;
     transform: none;
   }
 }
-
-}
-

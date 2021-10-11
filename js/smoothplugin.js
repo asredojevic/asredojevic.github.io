@@ -1,6 +1,6 @@
 !(function ($) {
   'use strict';
-  var content  = $('#container').smoothState({
+  $('#container').smoothState({
         // onStart runs as soon as link has been activated
         onStart : {
           
