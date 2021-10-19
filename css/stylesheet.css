@@ -307,6 +307,7 @@ display:block;
 float:left;
 margin-left:auto;
 margin-right:auto;
+padding-right: 15px;
 }
 	
 .left-box img{
